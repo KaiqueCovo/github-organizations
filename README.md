@@ -1,34 +1,61 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<!-- Logotipo -->
+<h1 align="center">
+<img alt="Logotipo" src="./.github/logo.jpg" width="200" heigth="auto"/>
+</h1>
 
-## Getting Started
+<div align="center">
 
-First, run the development server:
+<!-- Badges -->
+![GitHub top language](https://img.shields.io/github/languages/top/kaiqueCovo/github-organizations?color=%23000000)
+![GitHub last commit](https://img.shields.io/github/last-commit/kaiqueCovo/github-organizations?color=%23FFFFFF)
+![GitHub repo size](https://img.shields.io/github/repo-size/kaiqueCovo/github-organizations?color=%23000000)
+![GitHub made by](https://img.shields.io/badge/made%20by-kaiqueCovo-%23FFFFFF)
+
+<!-- Menu -->
+<p align="center" >
+  <a href="#bookmark_tabs-about-the-project">:bookmark_tabs:&nbsp;&nbsp;About the project</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#rocket-technologies">:rocket:&nbsp;&nbsp;Technologies</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#information_source-how-to-use">:information_source:&nbsp;&nbsp;How To Use</a>
+</p>
+
+<!-- GIF -->
+![](./.github/gif.gif)
+
+</div>
+
+<!-- About -->
+## :bookmark_tabs: About the project
+Web application that show members from Github Organizations
+
+
+<!-- Technologies -->
+## :rocket: Technologies
+
+- [Next.js](https://nextjs.org/)
+- [Tailwind CSS](https://tailwindcss.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+
+
+
+<!-- How to use -->
+## :information_source: How To Use
+
+
+To clone and run this application, you'll need [Git](https://git-scm.com), [Node.js v10.16](https://nodejs.org/en) or higher + [Yarn v1.13](https://yarnpkg.com) or higher installed on your computer. Run from your command line:
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clone this repository
+$ git clone git@github.com:KaiqueCovo/github-organizations.git
+
+# Go into the repository
+$ cd github-organizations
+
+# Install dependencies
+$ yarn install
+
+# Run the app
+$ yarn dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/import?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+---
+Made with ♥  by [Kaique Covo](https://www.linkedin.com/in/kaique-covo-a46331147/) :wave:
